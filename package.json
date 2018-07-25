@@ -1,0 +1,22 @@
+{
+  "name": "tsconfig-paths-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js",
+    "pretest": "tsc",
+    "test": "node -r tsconfig-paths/register index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "0.2.0",
+    "tsconfig-paths": "3.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "10.5.3"
+  }
+}
